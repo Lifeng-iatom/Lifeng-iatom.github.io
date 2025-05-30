@@ -1,4 +1,4 @@
-import React from react;
+import React from 'react';
 import { Palette, Award, Clock, Image } from 'lucide-react';
 
 const About: React.FC = () => {
