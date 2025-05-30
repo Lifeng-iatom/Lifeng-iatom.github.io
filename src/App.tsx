@@ -39,17 +39,15 @@ function App() {
         <Routes>
           <Route path="/" element={
             <main>
-              <Hero />
+          
               <Portfolio />
               <About />
-              <Contact />
+             
             </main>
           } />
           <Route path="/project/:id" element={<ProjectDetail />} />
         </Routes>
-        <Header/>
-        <Portfolio/>
-        <About/>
+
       
       </div>
     </BrowserRouter>
