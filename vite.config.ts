@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+// vite.config.ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',  // or just remove this line
+  base: '/Lifeng-iatom.github.io/', // must match your repo name
   plugins: [react()],
-});
+})
