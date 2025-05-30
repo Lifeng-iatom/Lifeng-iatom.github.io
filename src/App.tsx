@@ -47,7 +47,10 @@ function App() {
           } />
           <Route path="/project/:id" element={<ProjectDetail />} />
         </Routes>
-        <Footer />
+        <Header/>
+        <About/>
+        <Portfolio/>
+      
       </div>
     </BrowserRouter>
   );
