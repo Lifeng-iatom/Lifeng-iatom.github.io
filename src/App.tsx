@@ -48,8 +48,8 @@ function App() {
           <Route path="/project/:id" element={<ProjectDetail />} />
         </Routes>
         <Header/>
-        <About/>
         <Portfolio/>
+        <About/>
       
       </div>
     </BrowserRouter>
