@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <a href="#home" className="text-2xl font-serif font-bold tracking-tight text-gray-900 dark:text-white">
-            Studio<span className="text-blue-600 dark:text-blue-400">Illustra</span>
+            Avocado<span className="text-green-600 dark:text-green-400">Cat</span>
           </a>
 
           {/* Desktop Navigation */}

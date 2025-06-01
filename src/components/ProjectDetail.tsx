@@ -42,20 +42,27 @@ const ProjectDetail: React.FC = () => {
       </button>
 
       <div className="grid md:grid-cols-2 gap-12">
-        <div className="relative">
-          <div className="aspect-w-16 aspect-h-12 rounded-xl overflow-hidden shadow-2xl">
-            <img
-              src={project.imageUrl}
-              alt={project.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          {project.featured && (
-            <div className="absolute top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium">
-              Featured Project
+        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-6">
+          {project.imageUrl.map((url, index) => (
+            <div
+              key={index}
+              className="aspect-w-16 aspect-h-12 rounded-xl overflow-hidden shadow-2xl relative"
+            >
+              <img
+                src={url}
+                alt={`${project.title} image ${index + 1}`}
+                className="w-full h-full object-cover"
+              />
+
+              {project.featured && index === 0 && (
+                <div className="absolute top-4 right-4 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium">
+                  Featured Project
+                </div>
+              )}
             </div>
-          )}
+          ))}
         </div>
+
 
         <div>
           <span className="text-sm font-medium text-blue-600 dark:text-blue-400">

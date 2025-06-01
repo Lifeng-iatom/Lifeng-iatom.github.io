@@ -21,7 +21,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Over</p>
-                  <p className="text-xl font-bold text-gray-900 dark:text-white">10 Years Experience</p>
+                  <p className="text-xl font-bold text-gray-900 dark:text-white">3 Years Experience</p>
                 </div>
               </div>
             </div>
@@ -31,10 +31,19 @@ const About: React.FC = () => {
             <div>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 dark:text-white mb-6">About Me</h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
-                I'm a passionate illustrator with over 10 years of experience creating unique visual narratives across various mediums. My work blends traditional techniques with digital innovation to create captivating images that tell compelling stories.
+                Hello! I’m Avocado Cat, a digital artist and illustrator based in Toulouse, France. With a background in Art History from the University of Leeds and a Master’s degree from the University of Toronto, my work sits at the intersection of art, science, and storytelling.
+              </p>
+              <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
+                I specialize in botanical and paleontological illustration—bringing to life the hidden worlds of plants, ancient ecosystems, and natural history through detailed, research-driven images. My passion lies in making science accessible and enchanting, whether through scientific diagrams or whimsical children’s picture books.
+              </p>
+              <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
+                One of my proudest collaborations is with Mango Dog, a paleobotanist and my creative partner at the Muséum national d’Histoire naturelle in Paris, French. Together, we create illustrated stories that weave art and plant science to inspire curiosity and wonder in audiences of all ages.
+              </p>
+              <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
+                When I’m not drawing microscopic plant structures or prehistoric landscapes, I’m often inspired by my cat, Dinger, who keeps me company during long creative sessions. Dinger even stars in some of my children’s books, like the story of his adventures exploring magical underground worlds with a glowing grape seed.\n
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                My illustrations have been featured in magazines, books, and advertising campaigns globally. I believe in the power of visual storytelling to connect, inspire, and transform perspectives.
+                Feel free to explore my portfolio, follow my creative journey on Instagram at @avocadocat_illustration, or get in touch for commissions and collaborations!
               </p>
             </div>
             

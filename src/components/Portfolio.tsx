@@ -40,7 +40,7 @@ const Portfolio: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-gray-900 dark:text-white mb-4">Portfolio</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            Explore my latest works and creative projects
+          Drawing worlds where nature remembers, and we return.
           </p>
         </div>
         
@@ -90,7 +90,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
     >
       <div className="aspect-w-16 aspect-h-12 relative overflow-hidden">
         <img
-          src={project.imageUrl}
+          src={project.imageUrl[0]}
           alt={project.title}
           className="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110"
         />

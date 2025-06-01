@@ -42,6 +42,7 @@ function App() {
           
               <Portfolio />
               <About />
+              <Contact />
              
             </main>
           } />
