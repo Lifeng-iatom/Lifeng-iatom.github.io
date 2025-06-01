@@ -46,7 +46,7 @@ const ProjectDetail: React.FC = () => {
           {project.imageUrl.map((url, index) => (
             <div
               key={index}
-              className="aspect-w-16 aspect-h-12 rounded-xl overflow-hidden shadow-2xl relative"
+              className="break-inside-avoid relative rounded-xl overflow-hidden shadow-2xl"
             >
               <img
                 src={url}

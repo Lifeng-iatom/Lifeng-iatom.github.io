@@ -8,6 +8,8 @@ export const projects: Project[] = [
     imageUrl:
     ["https://github.com/Lifeng-iatom/images/blob/main/IMG_2169.JPG?raw=true?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "https://github.com/Lifeng-iatom/images/blob/main/IMG_2169.JPG?raw=true?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://github.com/Lifeng-iatom/images/blob/main/IMG_2169.JPG?raw=true?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://github.com/Lifeng-iatom/images/blob/main/IMG_2169.JPG?raw=true?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "https://github.com/Lifeng-iatom/images/blob/main/IMG_2169.JPG?raw=true?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     ],
     category: "Picture Books",
