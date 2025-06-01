@@ -49,8 +49,8 @@ const Contact: React.FC = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          <div className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg">
+        <div className="md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+          {/* <div className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg">
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                 <div>
@@ -151,7 +151,7 @@ const Contact: React.FC = () => {
                 </div>
               )}
             </form>
-          </div>
+          </div> */}
           
           <div className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-lg flex flex-col justify-between">
             <div>
@@ -170,7 +170,7 @@ const Contact: React.FC = () => {
                   <div className="ml-4">
                     <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Email</p>
                     <a href="mailto:contact@studioillustra.com" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
-                      contact@studioillustra.com
+                    avocadocatstudio@gmail.com
                     </a>
                   </div>
                 </div>
@@ -182,7 +182,7 @@ const Contact: React.FC = () => {
                   <div className="ml-4">
                     <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Phone</p>
                     <a href="tel:+11234567890" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
-                      +1 (123) 456-7890
+                      +33 6 49 95 70 88
                     </a>
                   </div>
                 </div>
@@ -194,7 +194,7 @@ const Contact: React.FC = () => {
                   <div className="ml-4">
                     <p className="text-sm font-medium text-gray-700 dark:text-gray-400">Location</p>
                     <p className="text-gray-900 dark:text-white">
-                      San Francisco, California
+                      Toulouse, France
                     </p>
                   </div>
                 </div>
@@ -203,8 +203,8 @@ const Contact: React.FC = () => {
             
             <div className="mt-12 border-t border-gray-200 dark:border-gray-700 pt-8">
               <h4 className="text-lg font-medium text-gray-900 dark:text-white mb-4">Working Hours</h4>
-              <ul className="space-y-2">
-                <li className="flex justify-between text-gray-600 dark:text-gray-300">
+              <ul className="space-y-2 text-center">
+                <li className="flex justify-between text-gray-600 dark:text-gray-300 ">
                   <span>Monday - Friday:</span>
                   <span>9:00 AM - 6:00 PM</span>
                 </li>
